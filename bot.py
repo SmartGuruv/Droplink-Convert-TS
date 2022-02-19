@@ -80,7 +80,7 @@ async def pdisk_up(link):
         async with aiohttp.ClientSession() as session:
             async with session.get(url, params=params, raise_for_status=True) as response:
                 data = await response.json()
-                v_url = """🔘__Episode__ - \nEn👉 """ + data["shortenedUrl"] + """\n"""
+                v_url = + data["shortenedUrl"] + """\n"""
     else:
         v_url = link
         
@@ -128,12 +128,8 @@ async def remove_username(new_List):
     return new_List
   
 async def addFooter(str):
-    footer = """\n__🔆Also available on Telegram in private channel Directly🔆__
-➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
-__#MovieBlaster #MB_Links #Tamil #Movies__
-🔅How to Download -""" + HOWTO + """\n
+    footer = """\n👀 How To Download / Watch 👀 - \n""" + HOWTO + """\n
 📣 Provide By @"""+ CHANNEL + """
-__🔊For all  Direct Comics folder lifetime Membership msg me on @Sri_Guru05 or Join - @MB_Links__"""
     return str + footer
         
 bot.run()
