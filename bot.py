@@ -29,11 +29,6 @@ async def start(bot, message):
     await message.reply(
         f"**Hello {message.chat.first_name} !**\n\n"
         "**Hᴇʏ,  😎\n\nI Aᴍ Bᴜʟᴋ Nᴏʀᴍᴀʟ Lɪɴᴋ Tᴏ DʀᴏᴘLɪɴᴋ Cᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ.\n\nI Cᴀɴ Cᴏɴᴠᴇʀᴛ Nᴏʀᴍᴀʟ Lɪɴᴋ As DʀᴏᴘLɪɴᴋ.\n\n🔰 I Cᴀɴ Rᴇᴍᴏᴠᴇ Pᴏsᴛ ɪɴ Aɴᴏᴛʜᴇʀ Cʜᴀɴɴᴇʟ Lɪɴᴋs.\n\n🔰 Iғ Yᴏᴜ Wᴀɴᴛ Mᴏʀᴇ Hᴇʟᴘ Sᴇɴᴅ /help\n\n👨🏻‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : @Sri_Guru05**")
-buttons=InlineKeyboardMarkup(
-            [[
-                InlineKeyboardButton("🏅Join Channel🏅", url="https://t.me/MB_Links")
-            ]]
-        )
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
