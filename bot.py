@@ -28,7 +28,7 @@ bot = Client('Droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hello {message.chat.first_name} !**\n\n"
-        "Hᴇʏ,  😎\nI Aᴍ Bᴜʟᴋ Nᴏʀᴍᴀʟ Lɪɴᴋ Tᴏ DʀᴏᴘLɪɴᴋ Cᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ.\n\nI Cᴀɴ Cᴏɴᴠᴇʀᴛ As DʀᴏᴘLɪɴᴋ Lɪɴᴋ.\n\n🔰 I Cᴀɴ Rᴇᴍᴏᴠᴇ Pᴏsᴛ ɪɴ Aɴᴏᴛʜᴇʀ Cʜᴀɴɴᴇʟ Lɪɴᴋs.\n\n🔰 Iғ Yᴏᴜ Wᴀɴᴛ Mᴏʀᴇ Hᴇʟᴘ Sᴇɴᴅ /help\n👨🏻‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : @Sri_Guru05**")
+        "**Hᴇʏ,  😎\n\nI Aᴍ Bᴜʟᴋ Nᴏʀᴍᴀʟ Lɪɴᴋ Tᴏ DʀᴏᴘLɪɴᴋ Cᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ.\n\nI Cᴀɴ Cᴏɴᴠᴇʀᴛ As DʀᴏᴘLɪɴᴋ Lɪɴᴋ.\n\n🔰 I Cᴀɴ Rᴇᴍᴏᴠᴇ Pᴏsᴛ ɪɴ Aɴᴏᴛʜᴇʀ Cʜᴀɴɴᴇʟ Lɪɴᴋs.\n\n🔰 Iғ Yᴏᴜ Wᴀɴᴛ Mᴏʀᴇ Hᴇʟᴘ Sᴇɴᴅ /help\n\n👨🏻‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : @Sri_Guru05**")
 
 
 @bot.on_message(filters.command('help') & filters.private)
