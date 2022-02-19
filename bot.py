@@ -29,19 +29,33 @@ async def start(bot, message):
     await message.reply(
         f"**Hello {message.chat.first_name} !**\n\n"
         "**Hᴇʏ,  😎\n\nI Aᴍ Bᴜʟᴋ Nᴏʀᴍᴀʟ Lɪɴᴋ Tᴏ DʀᴏᴘLɪɴᴋ Cᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ.\n\nI Cᴀɴ Cᴏɴᴠᴇʀᴛ Nᴏʀᴍᴀʟ Lɪɴᴋ As DʀᴏᴘLɪɴᴋ.\n\n🔰 I Cᴀɴ Rᴇᴍᴏᴠᴇ Pᴏsᴛ ɪɴ Aɴᴏᴛʜᴇʀ Cʜᴀɴɴᴇʟ Lɪɴᴋs.\n\n🔰 Iғ Yᴏᴜ Wᴀɴᴛ Mᴏʀᴇ Hᴇʟᴘ Sᴇɴᴅ /help\n\n👨🏻‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : @Sri_Guru05**")
-
+buttons=InlineKeyboardMarkup(
+            [[
+                InlineKeyboardButton("🏅Join Channel🏅", url="https://t.me/MB_Links")
+            ]]
+        )
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hi, {message.chat.first_name} !**\n\n"
         "**ᴵᶠ ʸᵒᵘ ˢᵉⁿᵈ ᴾᵒˢᵗ ᵂʰⁱᶜʰ ᴴᵃᵈ ᴸⁱⁿᵏˢ ᵂⁱᵗʰ ᵀᵉˣᵗˢ ᴬⁿᵈ ᴵᵐᵃᵍᵉˢ\n\nᵀʰᵃⁿ ᴵ ᵂⁱˡˡ ᶜᵒⁿᵛᵉʳᵗ ᴬⁿᵈ ᴿᵉᵖˡᵃᶜᵉ ᴬˡˡ ᴸⁱⁿᵏˢ ᵂⁱᵗʰ ʸᵒᵘʳ ᴸⁱⁿᵏˢ\n\nᴹᵉˢˢᵃᵍᵉ ᴹᵉ @Sri_Guru05 ᶠᵒʳ ᴹᵒʳᵉ ᴴᵉˡᵖ**")
+buttons=InlineKeyboardMarkup(
+            [[
+                InlineKeyboardButton("🏅Join Channel🏅", url="https://t.me/MB_Links")
+            ]]
+        )
 
 @bot.on_message(filters.command('support') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
         "**Contact Me For Sources Code @Sri_Guru05\n\nJoin For More Updates @MB_Links**")
+buttons=InlineKeyboardMarkup(
+            [[
+                InlineKeyboardButton("🏅Join Channel🏅", url="https://t.me/MB_Links")
+            ]]
+        )
 
 @bot.on_message(filters.text & filters.private)
 async def pdisk_uploader(bot, message):
