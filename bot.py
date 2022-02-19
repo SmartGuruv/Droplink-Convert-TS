@@ -43,12 +43,6 @@ async def start(bot, message):
         f"**Hey, {message.chat.first_name}!**\n\n"
         "**Contact Me For Sources Code @Sri_Guru05\n\nJoin For More Updates @MB_Links**")
 
-@bot.on_message(filters.command('Source') & filters.private)
-async def start(bot, message):
-    await message.reply(
-        f"**Price 250rs Interested Dm Me!**\n\n"
-         "**Bot Created By @Sri_Guru05**"
-
 @bot.on_message(filters.text & filters.private)
 async def pdisk_uploader(bot, message):
     new_string = str(message.text)
