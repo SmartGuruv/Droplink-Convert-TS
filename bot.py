@@ -132,4 +132,6 @@ async def addFooter(str):
 📣 Provide By @"""+ CHANNEL + """
     return str + footer
         
+
+
 bot.run()
