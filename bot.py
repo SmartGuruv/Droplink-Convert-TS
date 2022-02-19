@@ -27,14 +27,14 @@ bot = Client('Droplink bot',
 @bot.on_message(filters.command('start') & filters.private)
 async def start(bot, message):
     await message.reply(
-        f"**Hello {message.chat.first_name}!**\n\n"
-        "Hᴇʏ,  😎\nI Aᴍ Bᴜʟᴋ Nᴏʀᴍᴀʟ Lɪɴᴋ Tᴏ DʀᴏᴘLɪɴᴋ Cᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ.\n\nI Cᴀɴ Cᴏɴᴠᴇʀᴛ Oᴛʜᴇʀ Mᴅɪsᴋ Lɪɴᴋ.\n\n🔰 I Cᴀɴ Rᴇᴍᴏᴠᴇ Pᴏsᴛ ɪɴ Aɴᴏᴛʜᴇʀ Cʜᴀɴɴᴇʟ Lɪɴᴋs.\n\n🔰 Iғ Yᴏᴜ Wᴀɴᴛ Mᴏʀᴇ Hᴇʟᴘ Sᴇɴᴅ /help\n👨🏻‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : @Sri_Guru05**")
+        f"**Hello {message.chat.first_name} !**\n\n"
+        "Hᴇʏ,  😎\nI Aᴍ Bᴜʟᴋ Nᴏʀᴍᴀʟ Lɪɴᴋ Tᴏ DʀᴏᴘLɪɴᴋ Cᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ.\n\nI Cᴀɴ Cᴏɴᴠᴇʀᴛ As DʀᴏᴘLɪɴᴋ Lɪɴᴋ.\n\n🔰 I Cᴀɴ Rᴇᴍᴏᴠᴇ Pᴏsᴛ ɪɴ Aɴᴏᴛʜᴇʀ Cʜᴀɴɴᴇʟ Lɪɴᴋs.\n\n🔰 Iғ Yᴏᴜ Wᴀɴᴛ Mᴏʀᴇ Hᴇʟᴘ Sᴇɴᴅ /help\n👨🏻‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : @Sri_Guru05**")
 
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
     await message.reply(
-        f"**Hi, {message.chat.first_name}!**\n\n"
+        f"**Hi, {message.chat.first_name} !**\n\n"
         "**ᴵᶠ ʸᵒᵘ ˢᵉⁿᵈ ᴾᵒˢᵗ ᵂʰⁱᶜʰ ᴴᵃᵈ ᴸⁱⁿᵏˢ ᵂⁱᵗʰ ᵀᵉˣᵗˢ ᴬⁿᵈ ᴵᵐᵃᵍᵉˢ\n\nᵀʰᵃⁿ ᴵ ᵂⁱˡˡ ᶜᵒⁿᵛᵉʳᵗ ᴬⁿᵈ ᴿᵉᵖˡᵃᶜᵉ ᴬˡˡ ᴸⁱⁿᵏˢ ᵂⁱᵗʰ ʸᵒᵘʳ ᴸⁱⁿᵏˢ\n\nᴹᵉˢˢᵃᵍᵉ ᴹᵉ @Sri_Guru05 ᶠᵒʳ ᴹᵒʳᵉ ᴴᵉˡᵖ**")
 
 @bot.on_message(filters.command('support') & filters.private)
@@ -130,7 +130,7 @@ async def remove_username(new_List):
 async def addFooter(str):
     footer = """\n\n👀 How To Download / Watch 👀 - """ + HOWTO + """\n
 📣 Provide By @"""+ CHANNEL + """\n
-__🔊For all  Direct Comics folder lifetime Membership msg me on @Sri_Guru05 or Join - @MB_Links__"""
+__⭕𝗙𝗼𝗿 𝗔𝗹𝗹 𝗗𝗮𝗶𝗹𝘆 𝗛𝗗 𝗠𝗼𝘃𝗶𝗲 𝗝𝗼𝗶𝗻 - @MB_Links__"""
     return str + footer
         
 bot.run()
