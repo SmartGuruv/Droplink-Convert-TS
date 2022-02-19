@@ -40,22 +40,12 @@ async def start(bot, message):
     await message.reply(
         f"**Hi, {message.chat.first_name} !**\n\n"
         "**ᴵᶠ ʸᵒᵘ ˢᵉⁿᵈ ᴾᵒˢᵗ ᵂʰⁱᶜʰ ᴴᵃᵈ ᴸⁱⁿᵏˢ ᵂⁱᵗʰ ᵀᵉˣᵗˢ ᴬⁿᵈ ᴵᵐᵃᵍᵉˢ\n\nᵀʰᵃⁿ ᴵ ᵂⁱˡˡ ᶜᵒⁿᵛᵉʳᵗ ᴬⁿᵈ ᴿᵉᵖˡᵃᶜᵉ ᴬˡˡ ᴸⁱⁿᵏˢ ᵂⁱᵗʰ ʸᵒᵘʳ ᴸⁱⁿᵏˢ\n\nᴹᵉˢˢᵃᵍᵉ ᴹᵉ @Sri_Guru05 ᶠᵒʳ ᴹᵒʳᵉ ᴴᵉˡᵖ**")
-buttons=InlineKeyboardMarkup(
-            [[
-                InlineKeyboardButton("🏅Join Channel🏅", url="https://t.me/MB_Links")
-            ]]
-        )
 
 @bot.on_message(filters.command('support') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
         "**Contact Me For Sources Code @Sri_Guru05\n\nJoin For More Updates @MB_Links**")
-buttons=InlineKeyboardMarkup(
-            [[
-                InlineKeyboardButton("🏅Join Channel🏅", url="https://t.me/MB_Links")
-            ]]
-        )
 
 @bot.on_message(filters.text & filters.private)
 async def pdisk_uploader(bot, message):
@@ -68,7 +58,6 @@ async def pdisk_uploader(bot, message):
         await message.reply(f'{pdisk_link}' , quote=True)
     except Exception as e:
         await message.reply(f'Error: {e}', quote=True)
-
 
 @bot.on_message(filters.photo & filters.private)
 async def pdisk_uploader(bot, message):
