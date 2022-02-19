@@ -6,7 +6,7 @@ Make short link by using Droplink
 
 #### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Amul-jat/Droplink)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/SriGuru05/Droplink-Convert)
 
 ##### Required Variables
 
@@ -18,4 +18,4 @@ Make short link by using Droplink
 
 ##### Credit
 
-- Me [Amul-jat](https://github.com/Amul-jat) For This Repo
+- Me [Sri Guru](https://github.com/SriGuru05/Droplink-Convert) For This Repo
