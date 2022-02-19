@@ -27,25 +27,32 @@ bot = Client('Droplink bot',
 @bot.on_message(filters.command('start') & filters.private)
 async def start(bot, message):
     await message.reply(
-        f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm Droplink bot. Just send me link and get short link")
+        f"**Hello {message.chat.first_name}!**\n\n"
+        "Hᴇʏ,  😎\nI Aᴍ Bᴜʟᴋ Nᴏʀᴍᴀʟ Lɪɴᴋ Tᴏ DʀᴏᴘLɪɴᴋ Cᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ.\n\nI Cᴀɴ Cᴏɴᴠᴇʀᴛ Oᴛʜᴇʀ Mᴅɪsᴋ Lɪɴᴋ.\n\n🔰 I Cᴀɴ Rᴇᴍᴏᴠᴇ Pᴏsᴛ ɪɴ Aɴᴏᴛʜᴇʀ Cʜᴀɴɴᴇʟ Lɪɴᴋs.\n\n🔰 Iғ Yᴏᴜ Wᴀɴᴛ Mᴏʀᴇ Hᴇʟᴘ Sᴇɴᴅ /help\n👨🏻‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : @Sri_Guru05**")
+
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
     await message.reply(
-        f"**Hello, {message.chat.first_name}!**\n\n"
-        "**If you send post which had Links, texts & images... Than I'll convert & replace all links with your links \nMessage me @kamdev07 For more help-**")
+        f"**Hi, {message.chat.first_name}!**\n\n"
+        "**ᴵᶠ ʸᵒᵘ ˢᵉⁿᵈ ᴾᵒˢᵗ ᵂʰⁱᶜʰ ᴴᵃᵈ ᴸⁱⁿᵏˢ ᵂⁱᵗʰ ᵀᵉˣᵗˢ ᴬⁿᵈ ᴵᵐᵃᵍᵉˢ\n\nᵀʰᵃⁿ ᴵ ᵂⁱˡˡ ᶜᵒⁿᵛᵉʳᵗ ᴬⁿᵈ ᴿᵉᵖˡᵃᶜᵉ ᴬˡˡ ᴸⁱⁿᵏˢ ᵂⁱᵗʰ ʸᵒᵘʳ ᴸⁱⁿᵏˢ\n\nᴹᵉˢˢᵃᵍᵉ ᴹᵉ @Sri_Guru05 ᶠᵒʳ ᴹᵒʳᵉ ᴴᵉˡᵖ**")
 
 @bot.on_message(filters.command('support') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**please contact me on @kamdev07 or for more join @pdisk_Admins**")
-    
+        "**Contact Me For Sources Code @Sri_Guru05\n\nJoin For More Updates @MB_Links**")
+
+@bot.on_message(filters.command('Source') & filters.private)
+async def start(bot, message):
+    await message.reply(
+        f"**Price 250rs Interested Dm Me!**\n\n"
+         "**Bot Created By @Sri_Guru05**"
+
 @bot.on_message(filters.text & filters.private)
 async def pdisk_uploader(bot, message):
     new_string = str(message.text)
-    conv = await message.reply("Converting...")
+    conv = await message.reply("**✨Please Wait Your Link Converting...**")
     dele = conv["message_id"]
     try:
         pdisk_link = await multi_pdisk_up(new_string)
@@ -58,7 +65,7 @@ async def pdisk_uploader(bot, message):
 @bot.on_message(filters.photo & filters.private)
 async def pdisk_uploader(bot, message):
     new_string = str(message.caption)
-    conv = await message.reply("Converting...")
+    conv = await message.reply("**✨Please Wait Your Link Converting...**")
     dele = conv["message_id"]
     try:
         pdisk_link = await multi_pdisk_up(new_string)
@@ -127,14 +134,8 @@ async def remove_username(new_List):
     return new_List
   
 async def addFooter(str):
-    footer = """\n__🔆Also available on Telegram in private channel Directly🔆__
-
-➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
-__#SavitaBhabhi #ComicVideo #Savita #Hindi #Sexy_voice #Kirtu #Savita_Bhabhi #Velamma #Crazydad #Momshelp #incest__
-
-🔅How to Download -""" + HOWTO + """\n
+    footer = 👀 How To Download / Watch 👀 - \n""" + HOWTO + """\n
 📣 Provide By @"""+ CHANNEL + """
-__🔊For all  Direct Comics folder lifetime Membership msg me on @Kamdev07 or Join- @vip_comics__"""
     return str + footer
         
 bot.run()
