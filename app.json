@@ -5,8 +5,8 @@
         "telegram",
         "droplink"
     ],
-    "website": "https://github.com/Amul-jat/Droplink",
-    "repository": "https://github.com/Amul-jat/Droplink",
+    "website": "https://github.com/SriGuru05/Droplink-Convert",
+    "repository": "https://github.com/SriGuru05/Droplink-Convert",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token (must add)",
