@@ -128,10 +128,9 @@ async def remove_username(new_List):
     return new_List
   
 async def addFooter(str):
-    footer = """\n👀 How To Download / Watch 👀 - \n""" + HOWTO + """\n
-📣 Provide By @"""+ CHANNEL + """
+    footer = """\n\n👀 How To Download / Watch 👀 - """ + HOWTO + """\n
+📣 Provide By @"""+ CHANNEL + """\n
+__🔊For all  Direct Comics folder lifetime Membership msg me on @Sri_Guru05 or Join - @MB_Links__"""
     return str + footer
         
-
-
 bot.run()
