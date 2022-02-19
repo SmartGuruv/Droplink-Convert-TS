@@ -14,23 +14,23 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "7626510"
+            "value": "5986167"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "ca991bfa07a6ac45e6d5f374c84ab05c"
+            "value": "174decf6487d00dcd13c5d7153254f2b"
         },
         "API_KEY": {
             "description": "https://droplink.co/member/tools/api",
-            "value": "8e41249f9706af6c5bf2a1acb1c0b5af3c6ddf84"
+            "value": "baec388d7bbe8d4f69ab78d33d1f2e423f5dd35b"
         },
         "CHANNEL": {
             "description": "Enter your telegram channel Username (must change and without @)",
-            "value": "Savita_Bhabhi_Comics_Free4u"
+            "value": "MB_Links"
         },
         "HOWTO": {
             "description": "Your 'How to Download from Droplink' video link",
-            "value": "https://youtu.be/x5VDDVO6xi0"
+            "value": "https://t.me/MB_Tutorial/4"
         }
     },
     "addons": [],
